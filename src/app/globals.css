@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form input {
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    margin: 2px;
+    background-color: rgb(32, 27, 27);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form input[type="button"]:hover{
+    background-color: black;
+}
